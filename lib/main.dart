@@ -5,6 +5,8 @@ import 'package:restaurant_2_api/home.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'bloc/implement_bloc.dart';
 
+//added material page rutes
+
 void main() async {
   final pref = await SharedPreferences.getInstance();
   runApp(MyApp(shared: pref));
